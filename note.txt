@@ -1,0 +1,51 @@
+https://youtu.be/YKuYvQwE1AY?t=2635
+{{ Auth::user()->name }}
+
+ // $('.course').change(function (argument){
+      //   var course_id = $(this).val();
+      //   $.ajaxSetup({
+      //     headers:{
+      //       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      //     }
+      //   });
+      //   $('.week').prop('disabled',false);
+      //   $.post('/adminside/show_week',{data:course_id},function(response){
+      //     var data=JSON.parse(response);
+      //     var weeks=data[0][0];
+      //     console.log(weeks);
+      //     $('.week').empty();
+      //     for(var i=0;i<weeks.length;i++){
+      //       $('.week').append('<option id=' + weeks[i].id + 'value=' + weeks[i].id + '>')
+      //     }
+
+      //   });
+
+      // });
+
+
+      // public function test(){
+    //     $courses = Course::all();
+    //     return view('backend.hall.test',compact('courses'));
+    // }
+    // public function show_week(Request request){
+    //     $course_id = $request->data;
+    //     $weeks= DB:table('weeks')
+    //             ->join('courses','courses.id','course_details.course_id')
+    //             ->where('course_details.course_id',$course_id)
+    //             ->select('courses.*')
+    //             ->get();
+    //     $data[] = [$weeks];
+    //     echo json_encode($data);
+    // }
+
+      <!-- data-id="{{$item->id}}" data-photo="{{asset($item->photo)}}" data-name="{{$item->name}}" data-price="{{$item->price}}" -->
+
+       {{ __('Login') }}
+
+        <h3 class="text-center">{{$coursedetail->course->name}}</h3>
+   <h5 class="mt-3">Course Description</h5>
+   <p>{{$coursedetail->course->description}}</p>
+   <h6 class="text-info mb-3">Lecturer By: {{$coursedetail->course->lecturer->user->name}}</h6>
+
+
+   

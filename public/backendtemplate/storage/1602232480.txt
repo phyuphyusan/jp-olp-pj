@@ -1,0 +1,44 @@
+﻿Git Documentationgit 
+
+         -Create New Repo
+                -Add New Repo
+                -Add Name
+                -Add Description
+                -Choose Public/Private(3)
+                -Check Read Me
+--------------------------------------------------------------------------------------
+                
+        -Git clone url
+        -Cd folder name
+        -Git status
+        -Git add .
+        -Git commit -m “Added a new file”
+        -Git pull
+        -Git push -u origin master
+--------------------------------------------------------------------------------------
+        -Git init
+        -Git status
+        -Git add .
+        -Git commit -m “message”
+        -Git remote add origin url
+        -Git pull --rebase origin master
+        -Git push -u origin master
+------------------------------------------------------------------------------------
+	Importment in CSS
+		Display
+		Position
+		Padding
+		Margin
+------------------------------------------------------------------------
+Repo Create Person
+
+git init
+git remote show origin 
+git remote add origin clone_url
+git remote show origin
+git status
+git add .
+git commit -m "message"
+git pull --rebase origin master
+git push -u origin master
+
